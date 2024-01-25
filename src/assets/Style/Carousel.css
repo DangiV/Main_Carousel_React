@@ -1,0 +1,29 @@
+.CarouselsMainParent {
+    background-color: rgba(244, 244, 244, 255);
+    position: relative;
+    padding: 10px;
+    min-height: 310px !important;
+}
+
+.FirstChild {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.ImgSection {
+    text-align: center;
+    /* min-height: 215px; */
+    /* height: 219px; */
+    width: 225px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.ImgSection img {
+    height: 160px;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+}
